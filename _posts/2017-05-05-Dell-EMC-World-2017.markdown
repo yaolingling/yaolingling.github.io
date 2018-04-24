@@ -1,0 +1,14 @@
+---
+layout: default
+title: Dell EMC World 2017
+modal-id: 4
+date: 2017-05-05
+img: 
+icon: dellemc.jpg
+alt: 
+project-date: 2017-05-08 ~ 2017-05-10
+#client: Start Bootstrap
+#category: Web Development
+description: RackHD will be discussed in 5 sessions at Dell EMC World. Please plan to visit one of these sessions and then come to the Hands On Lab to experience RackHD first hand.<table class="modal-table"><tr><th>Title</th><th>Day/Time</th></tr><tbody><tr><td><a href="https://emcworldonline.com/2017/connect/sessionDetail.ww?SESSION_ID=3434">Transform Your Infrastructure With RackHD Composability!</a><br>RackHD, an Open Source Software from Dell EMC will enable you to enter the New Era of DevOps for your bare-metal deployments on Day 0, Day 1 and beyond with a powerful Management and Orchestration technology. Come by to learn about how you can go from a GitHub clone to commanding your infrastructure with open Industry Standard APIs and custom workflows that will breathe life into your datacenter and enable you to enter the New World of DataCenter Automation.</td><td>Mon 4:30-5:30p<br>Tues 8:30-9:30a</td></tr><tr><td><a href="https://emcworldonline.com/2017/connect/sessionDetail.ww?SESSION_ID=3401">Docker For Private Clouds With RackHD</a><br>RackHD is the industry's first ever open source, cross-platform and automated deployment tool that can create Docker-ready hosts on bare metal. Learn how to build your own self-healing Docker cloud using integrations from {code} by Dell EMC.<</td><td>Mon 4:30-5:30p</td></tr><tr><td><a href="https://emcworldonline.com/2017/connect/sessionDetail.ww?SESSION_ID=3416">Real World Modern Development Use Cases With RackHD & Adobe</a><br>Join Adobe and the Dell EMC RackHD team for an overview on how Adobe is modernizing their datacenters using public and private clouds enabled by infrastructure as code technologies to abstract their infrastructure for application deployments and improve operational efficiencies.</td><td>Wed 3:00-4:00p</td></tr><tr><td><a href="https://emcworldonline.com/2017/connect/sessionDetail.ww?SESSION_ID=3436">Introducing InfraSIM- The Massively Scalable Heterogeneous Infrastructure Simulation Environment</a><br>InfraSIM is an open source project initiated by Dell EMC. InfraSIM allows users to build virtual machines that accurately simulate Storage, Compute, Network Switch and PDU elements.</td><td>Mon 4:30-5:30p<br>Wed 3:00-4:00p</td></tr><tr><td><a href="#">Redfish- The Next Generation Of Server Management Automation</a>This session discusses how the iDRAC RESTful API with Redfish can reduce your reliance on legacy management protocols such as IPMI and SNMP.</td><td>Mon 12:00-1:00p</td></tr></table>
+
+---
