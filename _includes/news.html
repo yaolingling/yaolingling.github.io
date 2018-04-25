@@ -19,6 +19,10 @@
                         </h3>
                         {% assign flag = "true" %}	
                         {% for post in site.posts %}
+                            {% capture postDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
+                            {% capture latestDate%}{{'2017-05-01' | date: '%b %-d, %Y'}}{% endcapture%}
+                            <p>{{postDate}}, {{latestDate}}</p>
+                            {% if postDate >= latestDate %}
                             <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal" class="list-group-item list-group-item-fixed-border">
                             <img src="img/news/{{post.icon}}" style="margin-right:13px;margin-left: 2px; height:30px; width:30px;float: left;">
                             <p>{{ post.title }}</p>
@@ -26,6 +30,7 @@
                                <img src="img/news/icons8.com-High-Importance-26.png" style="margin-right:2px;margin-left:5px;margin-top:-30px; height:30px; width:30px;float: right;">                           							
                             {% endif %}
                             </a>
+                            {% endif %}
                         {% assign flag = "false" %}
                         {% endfor %}
                         <a href="https://rackhd.atlassian.net/wiki/display/RAC1/RackHD+Release+Page" class="list-group-item list-group-item-fixed-border">
