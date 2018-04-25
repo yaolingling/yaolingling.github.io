@@ -21,6 +21,7 @@
                         {% for post in site.posts %}
                             {% capture postDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
                             {% capture latestDate%}{{'2017-05-01' | date: '%b %-d, %Y'}}{% endcapture%}
+                            <p>{{postDate}}|| {latestDate}</p>
                             {% if postDate >= latestDate %}
                             <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal" class="list-group-item list-group-item-fixed-border">
                             <img src="img/news/{{post.icon}}" style="margin-right:13px;margin-left: 2px; height:30px; width:30px;float: left;">
