@@ -9,6 +9,6 @@ alt:
 project-date:  2018 April
 #client: Start Bootstrap
 #category: Web Development
-description: Details in <a href="https://rackhd.atlassian.net/wiki/spaces/RAC1/pages/162889729/RAC-6719+RackHD+201804+Toolchain+Upgrade+in+Release"></a>
+description: Details in https://rackhd.atlassian.net/wiki/spaces/RAC1/pages/162889729/RAC-6719+RackHD+201804+Toolchain+Upgrade+in+Release
 
 ---
