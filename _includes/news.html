@@ -21,6 +21,11 @@
                         {% for post in site.posts %}
                             {% capture postDate %}{{post.date | date: '%Y %m %-d' }}{% endcapture %}
                             {% capture latestDate%}{{'2017-08-01' | date: '%Y %m %-d'}}{% endcapture%}
+                            {% capture t1%}{{'2017-10-27' | date: '%Y %m %-d'}}{% endcapture%}
+                            {% if t1 >= latestDate %}
+                                <p>!!!!!!!!!! {{t1}} > {{latestDate}}</p>
+                            {% endif%}
+
                             {% if postDate >= latestDate %}
                             <p>{{postDate}} || {{post.modal-id}} || {{post.title}} || {{latestDate}}</p>
                             <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal" class="list-group-item list-group-item-fixed-border">
@@ -28,7 +33,6 @@
                             <p>{{ post.title }}</p>
                             {% if flag != "false" %}
                                <img src="img/news/icons8.com-High-Importance-26.png" style="margin-right:2px;margin-left:5px;margin-top:-30px; height:30px; width:30px;float: right;">                           							
-                               <p>!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
                             {% endif %}
                             </a>
                             {% endif %}
