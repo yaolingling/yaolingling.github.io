@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Move CI from Jenkins to Concourse
-modal-id: 3 
+modal-id: 3
 date: 2017-10-27
 img: dev-summit-icon.png
 icon: icons8.com-Adventures-48.png
