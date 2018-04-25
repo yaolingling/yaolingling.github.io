@@ -22,10 +22,7 @@
                             {% capture postDate %}{{post.date | date: '%Y %m %-d' }}{% endcapture %}
                             {% capture latestDate%}{{'2017-08-01' | date: '%Y %m %-d'}}{% endcapture%}
                             {% capture t1%}{{'2017-10-27' | date: '%Y %m %-d'}}{% endcapture%}
-                            {% if t1 >= latestDate %}
-                                <p>!!!!!!!!!! {{t1}} > {{latestDate}}</p>
-                            {% endif%}
-
+                            <p>!!!!!!!!!!!!!! {{postDate}} || {{post.title}}</p>
                             {% if postDate >= latestDate %}
                             <p>{{postDate}} || {{post.modal-id}} || {{post.title}} || {{latestDate}}</p>
                             <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal" class="list-group-item list-group-item-fixed-border">
