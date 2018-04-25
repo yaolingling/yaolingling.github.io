@@ -9,6 +9,6 @@ alt:
 project-date:  2017 Oct
 #client: Start Bootstrap
 #category: Web Development
-description: Details in https://rackhd.atlassian.net/wiki/spaces/RAC1/pages/162889729/RAC-6719+RackHD+201804+Toolchain+Upgrade+in+Release
+description: Since 2017 Oct.27,  RackHD project switches over to Concourse based pipelines for Pull Request quality gate testing and continuous delivery. When a PR is created, a RackHD Committer will first need to set the “run-test” label on the PR to allow the PR Quality Gate test runs.  A RackHD Committer will then need to review the PR.  Once the PR passes both the code review and the PR Quality gate tests, a RackHD Committer can then merge the PR to master. <br/> Once the PR has been merged to master the POST Merge Test will run.  Once the Post Merge Test passes, the new docker,  debian images will be posted to DockerHub and Bintray. For dependent PRs, “depends on: <PR Link>” needs to be included in the comments for each dependency on a new line. A link to the PR status will be posted to the PR status in github with details and log information. http://rackhd.readthedocs.io/en/latest/devguide/contributing.html#quality-gates-for-the-pull-requests is  updated to reflect these changes. At the same time, OVA/Vagrant packages release have be deprecated, but scripts are provided to help community to build images.
 
 ---
