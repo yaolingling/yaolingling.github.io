@@ -19,8 +19,8 @@
                         </h3>
                         {% assign flag = "true" %}	
                         {% for post in site.posts %}
-                            {% capture postDate %}{{post.date | date: '%Y %-b %-d' }}{% endcapture %}
-                            {% capture latestDate%}{{'2017-08-01' | date: '%Y %-b %-d'}}{% endcapture%}
+                            {% capture postDate %}{{post.date | date: '%Y %m %-d' }}{% endcapture %}
+                            {% capture latestDate%}{{'2017-08-01' | date: '%Y %m %-d'}}{% endcapture%}
                             {% if postDate >= latestDate %}
                             <p>{{postDate}} || {{post.modal-id}} || {{post.title}} || {{latestDate}}</p>
                             <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal" class="list-group-item list-group-item-fixed-border">
