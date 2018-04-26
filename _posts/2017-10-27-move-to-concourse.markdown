@@ -9,6 +9,6 @@ alt:
 project-date:  2017 Oct
 #client: Start Bootstrap
 #category: Web Development
-description: Details in https://rackhd.atlassian.net/wiki/spaces/RAC1/pages/162889729/RAC-6719+RackHD+201804+Toolchain+Upgrade+in+Release
+description: Since 2017 Oct.27, RackHD switches over to Concourse based pipelines for pull request quality gate testing and continous delivery. 
 
 ---
